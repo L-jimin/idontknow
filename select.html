@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>it</title>
+    <style>
+        [class*="t"]{
+            color:blue;
+        }
+        [id^="uni"]{
+            color: red;
+        }
+        [class$="m"/*달라기호는 뒤에서 시작하는겨*/]{
+            color:brown;
+        }
+        p > span{
+            color:darkgoldenrod;
+        }
+        h1~p{
+            color: darkgreen;
+        }
+        text+p{
+            color: plum;
+        }
+    </style>
+</head>
+<body>
+    <h1>선택자 연습하기</h1>
+    <p>1번 문단입니다 냥양</p>
+    <p class="text">2번 문단입니다 클래스 있음둥</p>
+    <p id="unique">3번 문단입니다 아이디 있음둥</p>
+    <p class="text">4번 문단스 클래스 유유</p>
+    <p>5번 문단입니다<span>스판있는</span>태그임당</p>
+</body>
+</html>
